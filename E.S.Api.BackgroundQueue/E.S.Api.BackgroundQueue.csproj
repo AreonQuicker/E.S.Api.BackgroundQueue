@@ -5,11 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Authors>Gideon (Entelect)</Authors>
         <Description>E.S.Api.BackgroundQueue</Description>
+        <PackageVersion>6.0.9</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2"/>
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+        <PackageReference Include="E.S.Logging" Version="6.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
     </ItemGroup>
 
 </Project>
